@@ -8,7 +8,7 @@ import (
 
 func main() {
 	rootCmd := cobra.Command{
-		Use: "command",
+		Use: "exec",
 	}
 	rootCmd.AddCommand(slice.NewCommand(), queue.NewCommand())
 	rootCmd.Execute()
